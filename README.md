@@ -51,13 +51,13 @@ Install the required dependencies using the following command:
 
 ### Training
 1. Preprocess the dataset:
-   - Tokenize captions using the NLTK tokenizer.
-   - Generate vocabulary and word embeddings.
-   - Save the processed data for training.
+   ```bash
+   python custum_dataset_loader.py
+   ```
 
 2. Run the training script:
    ```bash
-   python train.py --dataset_path ./Flickr8k --epochs 20 --batch_size 64 --lr 0.001
+   python train.py 
    ```
 
 ## Model Architecture
