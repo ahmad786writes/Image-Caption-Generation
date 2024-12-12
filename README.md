@@ -10,7 +10,6 @@ Pytorch implementation of an Image Caption Generator using a combination of CNN 
 - [Requirements](#requirements)
 - [Usage](#usage)
   - [Training](#training)
-  - [Evaluation](#evaluation)
 - [Model Architecture](#model-architecture)
 - [Results](#results)
 - [References](#references)
